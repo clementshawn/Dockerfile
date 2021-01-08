@@ -1,0 +1,10 @@
+[Mysql]
+Db = "${MYSQL_DATABASE:-Yearning}"
+Host = "${MYSQL_HOST}"
+Port = "${MYSQL_PORT:-3306}"
+Password = "${MYSQL_PASSWORD}"
+User = "${MYSQL_USER}"
+
+[General]
+SecretKey = "${SECRETKEY:-dbcjqheupqjsuwsm}"
+Hours = 4
